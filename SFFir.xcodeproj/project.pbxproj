@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058CD847576DEA8778A564DD /* libPods-SFFir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D087E39DEC1C460E985094 /* libPods-SFFir.a */; };
+		AD03E0C51B608C7E0030F0B3 /* SFFir.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AD03E0C41B608C7E0030F0B3 /* SFFir.podspec */; };
+		ADBA488F1B5F834B00A098B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA488E1B5F834B00A098B2 /* main.m */; };
+		ADBA48921B5F834B00A098B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA48911B5F834B00A098B2 /* AppDelegate.m */; };
+		ADBA48951B5F834B00A098B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA48941B5F834B00A098B2 /* ViewController.m */; };
+		ADBA48981B5F834B00A098B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBA48961B5F834B00A098B2 /* Main.storyboard */; };
+		ADBA489A1B5F834B00A098B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBA48991B5F834B00A098B2 /* Images.xcassets */; };
+		ADBA489D1B5F834B00A098B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADBA489B1B5F834B00A098B2 /* LaunchScreen.xib */; };
+		ADBA48A91B5F834B00A098B2 /* SFFirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA48A81B5F834B00A098B2 /* SFFirTests.m */; };
+		ADBA48B51B5F840A00A098B2 /* SFFirService.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA48B41B5F840A00A098B2 /* SFFirService.m */; };
+		ADBA48B81B5F845400A098B2 /* SFFirVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA48B71B5F845400A098B2 /* SFFirVersion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADBA48A31B5F834B00A098B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBA48811B5F834B00A098B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADBA48881B5F834B00A098B2;
+			remoteInfo = SFFir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16D087E39DEC1C460E985094 /* libPods-SFFir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFFir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		370ED1C6945FDA9EEC979633 /* Pods-SFFir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFFir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFFir/Pods-SFFir.debug.xcconfig"; sourceTree = "<group>"; };
+		AD03E0C41B608C7E0030F0B3 /* SFFir.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFFir.podspec; sourceTree = "<group>"; };
+		ADBA48891B5F834B00A098B2 /* SFFir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFFir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBA488D1B5F834B00A098B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBA488E1B5F834B00A098B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADBA48901B5F834B00A098B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADBA48911B5F834B00A098B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADBA48931B5F834B00A098B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADBA48941B5F834B00A098B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADBA48971B5F834B00A098B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADBA48991B5F834B00A098B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADBA489C1B5F834B00A098B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADBA48A21B5F834B00A098B2 /* SFFirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFFirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBA48A71B5F834B00A098B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBA48A81B5F834B00A098B2 /* SFFirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFFirTests.m; sourceTree = "<group>"; };
+		ADBA48B31B5F840A00A098B2 /* SFFirService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFirService.h; sourceTree = "<group>"; };
+		ADBA48B41B5F840A00A098B2 /* SFFirService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFirService.m; sourceTree = "<group>"; };
+		ADBA48B61B5F845400A098B2 /* SFFirVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFirVersion.h; sourceTree = "<group>"; };
+		ADBA48B71B5F845400A098B2 /* SFFirVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFirVersion.m; sourceTree = "<group>"; };
+		F4EF689F3067ADB3EE052DC2 /* Pods-SFFir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFFir.release.xcconfig"; path = "Pods/Target Support Files/Pods-SFFir/Pods-SFFir.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADBA48861B5F834B00A098B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058CD847576DEA8778A564DD /* libPods-SFFir.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBA489F1B5F834B00A098B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADBA48801B5F834B00A098B2 = {
+			isa = PBXGroup;
+			children = (
+				AD03E0C41B608C7E0030F0B3 /* SFFir.podspec */,
+				ADBA488B1B5F834B00A098B2 /* SFFir */,
+				ADBA48A51B5F834B00A098B2 /* SFFirTests */,
+				ADBA488A1B5F834B00A098B2 /* Products */,
+				F611050616F5E35D1ECEE436 /* Pods */,
+				DBDC52C8F2676662ED849A7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBA488A1B5F834B00A098B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA48891B5F834B00A098B2 /* SFFir.app */,
+				ADBA48A21B5F834B00A098B2 /* SFFirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBA488B1B5F834B00A098B2 /* SFFir */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA48B21B5F83DA00A098B2 /* lib */,
+				ADBA48901B5F834B00A098B2 /* AppDelegate.h */,
+				ADBA48911B5F834B00A098B2 /* AppDelegate.m */,
+				ADBA48931B5F834B00A098B2 /* ViewController.h */,
+				ADBA48941B5F834B00A098B2 /* ViewController.m */,
+				ADBA48961B5F834B00A098B2 /* Main.storyboard */,
+				ADBA48991B5F834B00A098B2 /* Images.xcassets */,
+				ADBA489B1B5F834B00A098B2 /* LaunchScreen.xib */,
+				ADBA488C1B5F834B00A098B2 /* Supporting Files */,
+			);
+			path = SFFir;
+			sourceTree = "<group>";
+		};
+		ADBA488C1B5F834B00A098B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA488D1B5F834B00A098B2 /* Info.plist */,
+				ADBA488E1B5F834B00A098B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADBA48A51B5F834B00A098B2 /* SFFirTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA48A81B5F834B00A098B2 /* SFFirTests.m */,
+				ADBA48A61B5F834B00A098B2 /* Supporting Files */,
+			);
+			path = SFFirTests;
+			sourceTree = "<group>";
+		};
+		ADBA48A61B5F834B00A098B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA48A71B5F834B00A098B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADBA48B21B5F83DA00A098B2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA48B31B5F840A00A098B2 /* SFFirService.h */,
+				ADBA48B41B5F840A00A098B2 /* SFFirService.m */,
+				ADBA48B61B5F845400A098B2 /* SFFirVersion.h */,
+				ADBA48B71B5F845400A098B2 /* SFFirVersion.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		DBDC52C8F2676662ED849A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16D087E39DEC1C460E985094 /* libPods-SFFir.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F611050616F5E35D1ECEE436 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				370ED1C6945FDA9EEC979633 /* Pods-SFFir.debug.xcconfig */,
+				F4EF689F3067ADB3EE052DC2 /* Pods-SFFir.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADBA48881B5F834B00A098B2 /* SFFir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBA48AC1B5F834B00A098B2 /* Build configuration list for PBXNativeTarget "SFFir" */;
+			buildPhases = (
+				91FD47B16F460B6A8ECE2F6F /* Check Pods Manifest.lock */,
+				ADBA48851B5F834B00A098B2 /* Sources */,
+				ADBA48861B5F834B00A098B2 /* Frameworks */,
+				ADBA48871B5F834B00A098B2 /* Resources */,
+				B56AB0FF2FEA16D4DBE54B1C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFFir;
+			productName = SFFir;
+			productReference = ADBA48891B5F834B00A098B2 /* SFFir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADBA48A11B5F834B00A098B2 /* SFFirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBA48AF1B5F834B00A098B2 /* Build configuration list for PBXNativeTarget "SFFirTests" */;
+			buildPhases = (
+				ADBA489E1B5F834B00A098B2 /* Sources */,
+				ADBA489F1B5F834B00A098B2 /* Frameworks */,
+				ADBA48A01B5F834B00A098B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBA48A41B5F834B00A098B2 /* PBXTargetDependency */,
+			);
+			name = SFFirTests;
+			productName = SFFirTests;
+			productReference = ADBA48A21B5F834B00A098B2 /* SFFirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADBA48811B5F834B00A098B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = sofach;
+				TargetAttributes = {
+					ADBA48881B5F834B00A098B2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ADBA48A11B5F834B00A098B2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ADBA48881B5F834B00A098B2;
+					};
+				};
+			};
+			buildConfigurationList = ADBA48841B5F834B00A098B2 /* Build configuration list for PBXProject "SFFir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADBA48801B5F834B00A098B2;
+			productRefGroup = ADBA488A1B5F834B00A098B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADBA48881B5F834B00A098B2 /* SFFir */,
+				ADBA48A11B5F834B00A098B2 /* SFFirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADBA48871B5F834B00A098B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBA48981B5F834B00A098B2 /* Main.storyboard in Resources */,
+				ADBA489D1B5F834B00A098B2 /* LaunchScreen.xib in Resources */,
+				ADBA489A1B5F834B00A098B2 /* Images.xcassets in Resources */,
+				AD03E0C51B608C7E0030F0B3 /* SFFir.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBA48A01B5F834B00A098B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91FD47B16F460B6A8ECE2F6F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B56AB0FF2FEA16D4DBE54B1C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SFFir/Pods-SFFir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADBA48851B5F834B00A098B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBA48B81B5F845400A098B2 /* SFFirVersion.m in Sources */,
+				ADBA48B51B5F840A00A098B2 /* SFFirService.m in Sources */,
+				ADBA48951B5F834B00A098B2 /* ViewController.m in Sources */,
+				ADBA48921B5F834B00A098B2 /* AppDelegate.m in Sources */,
+				ADBA488F1B5F834B00A098B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBA489E1B5F834B00A098B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBA48A91B5F834B00A098B2 /* SFFirTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADBA48A41B5F834B00A098B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADBA48881B5F834B00A098B2 /* SFFir */;
+			targetProxy = ADBA48A31B5F834B00A098B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADBA48961B5F834B00A098B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBA48971B5F834B00A098B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADBA489B1B5F834B00A098B2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBA489C1B5F834B00A098B2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADBA48AA1B5F834B00A098B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ce3548b2-0c4d-486e-948b-4923dbc3c9e8";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADBA48AB1B5F834B00A098B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ce3548b2-0c4d-486e-948b-4923dbc3c9e8";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADBA48AD1B5F834B00A098B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 370ED1C6945FDA9EEC979633 /* Pods-SFFir.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFFir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce3548b2-0c4d-486e-948b-4923dbc3c9e8";
+			};
+			name = Debug;
+		};
+		ADBA48AE1B5F834B00A098B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4EF689F3067ADB3EE052DC2 /* Pods-SFFir.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFFir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce3548b2-0c4d-486e-948b-4923dbc3c9e8";
+			};
+			name = Release;
+		};
+		ADBA48B01B5F834B00A098B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SFFirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce3548b2-0c4d-486e-948b-4923dbc3c9e8";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFFir.app/SFFir";
+			};
+			name = Debug;
+		};
+		ADBA48B11B5F834B00A098B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SFFirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce3548b2-0c4d-486e-948b-4923dbc3c9e8";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFFir.app/SFFir";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADBA48841B5F834B00A098B2 /* Build configuration list for PBXProject "SFFir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBA48AA1B5F834B00A098B2 /* Debug */,
+				ADBA48AB1B5F834B00A098B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBA48AC1B5F834B00A098B2 /* Build configuration list for PBXNativeTarget "SFFir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBA48AD1B5F834B00A098B2 /* Debug */,
+				ADBA48AE1B5F834B00A098B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBA48AF1B5F834B00A098B2 /* Build configuration list for PBXNativeTarget "SFFirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBA48B01B5F834B00A098B2 /* Debug */,
+				ADBA48B11B5F834B00A098B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADBA48811B5F834B00A098B2 /* Project object */;
+}
