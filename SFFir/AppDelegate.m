@@ -7,10 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "SFFirService.h"
+#import "SFFir.h"
 
-#define FIRApiToken @"e86d3a88e2e171258865ec0a7ed727ae"
-#define FIRAppId @"5563e26a99dbb57d510028b9"
+#define FIRAppID @"56274e05f2fc42474b000008"
+#define FIRApiToken @"33ead5dfe77bc811d2ffd2a63d6bb6c8"
+
 @interface AppDelegate ()
 
 @end
@@ -21,7 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [[SFFirService sharedInstence] autoUpdateWithAppId:FIRAppId apiToken:FIRApiToken];
+    [[SFFir sharedInstence] autoUpdateWithAppId:FIRAppID apiToken:FIRApiToken];
     return YES;
 }
 

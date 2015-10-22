@@ -1,20 +1,20 @@
 //
-//  SFFirService.h
+//  SFFir.h
 //  SFFir
 //
-//  Created by 陈少华 on 15/7/22.
-//  Copyright (c) 2015年 sofach. All rights reserved.
+//  Created by 陈少华 on 15/10/22.
+//  Copyright © 2015年 sofach. All rights reserved.
 //
-
 #import <Foundation/Foundation.h>
 
+#import "SFFirVersion.h"
+
 @class AFHTTPRequestOperation;
-@class SFFirVersion;
 
 /**
  *  这是一个集成fir.im的工具，方便自动更新，之后会加入其他fir的功能
  */
-@interface SFFirService : NSObject
+@interface SFFir : NSObject
 
 /**
  *  单例

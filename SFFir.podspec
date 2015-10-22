@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SFFir"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "集成fir库"
 
   s.description  = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/sofach/SFFir.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/sofach/SFFir.git", :tag => "0.0.2" }
 
   s.source_files  = "SFFir/lib/**/*.{h,m}"
 

@@ -1,18 +1,17 @@
 //
-//  SFFirService.m
+//  SFFir.m
 //  SFFir
 //
-//  Created by 陈少华 on 15/7/22.
-//  Copyright (c) 2015年 sofach. All rights reserved.
+//  Created by 陈少华 on 15/10/22.
+//  Copyright © 2015年 sofach. All rights reserved.
 //
 #import <AFNetworking.h>
 
-#import "SFFirService.h"
-#import "SFFirVersion.h"
+#import "SFFir.h"
 
 #define FIRBaseUrl @"http://api.fir.im/apps"
 
-@interface SFFirService () <UIAlertViewDelegate>
+@interface SFFir () <UIAlertViewDelegate>
 
 @property (strong, nonatomic) AFHTTPRequestOperationManager *operationManager;
 @property (strong, nonatomic) NSString *appId;
@@ -23,8 +22,7 @@
 
 @end
 
-@implementation SFFirService
-
+@implementation SFFir
 
 + (instancetype)sharedInstence
 {
@@ -77,7 +75,7 @@
                 if (alertConfig) {
                     alertConfig(alert, version);
                 }
-                 http://download.fir.im/apps/:id/install
+            http://download.fir.im/apps/:id/install
                 [alert show];
             }
         }
@@ -102,7 +100,7 @@
     //http://download.fir.im/apps/:id/install
     if (buttonIndex == 1) {
         [_operationManager GET:[NSString stringWithFormat:@"http://api.fir.im/apps/%@/download_token", _appId] parameters:@{@"api_token": _apiToken?_apiToken:@""} success:^(AFHTTPRequestOperation *operation, id responseObject) {
-
+            
             [_operationManager POST:[NSString stringWithFormat:@"http://download.fir.im/apps/%@/install", _appId] parameters:responseObject success:^(AFHTTPRequestOperation *operation, id responseObject) {
                 NSString *plist_id = [responseObject objectForKey:@"url"];
                 if (plist_id) {

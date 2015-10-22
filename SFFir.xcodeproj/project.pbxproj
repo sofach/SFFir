@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		058CD847576DEA8778A564DD /* libPods-SFFir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D087E39DEC1C460E985094 /* libPods-SFFir.a */; };
 		AD03E0C51B608C7E0030F0B3 /* SFFir.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AD03E0C41B608C7E0030F0B3 /* SFFir.podspec */; };
+		AD6E969E1BD8C4FC0034B6C2 /* SFFir.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6E969D1BD8C4FC0034B6C2 /* SFFir.m */; settings = {ASSET_TAGS = (); }; };
 		ADBA488F1B5F834B00A098B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA488E1B5F834B00A098B2 /* main.m */; };
 		ADBA48921B5F834B00A098B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA48911B5F834B00A098B2 /* AppDelegate.m */; };
 		ADBA48951B5F834B00A098B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA48941B5F834B00A098B2 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		ADBA489A1B5F834B00A098B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBA48991B5F834B00A098B2 /* Images.xcassets */; };
 		ADBA489D1B5F834B00A098B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADBA489B1B5F834B00A098B2 /* LaunchScreen.xib */; };
 		ADBA48A91B5F834B00A098B2 /* SFFirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA48A81B5F834B00A098B2 /* SFFirTests.m */; };
-		ADBA48B51B5F840A00A098B2 /* SFFirService.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA48B41B5F840A00A098B2 /* SFFirService.m */; };
 		ADBA48B81B5F845400A098B2 /* SFFirVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA48B71B5F845400A098B2 /* SFFirVersion.m */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +34,8 @@
 		16D087E39DEC1C460E985094 /* libPods-SFFir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFFir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		370ED1C6945FDA9EEC979633 /* Pods-SFFir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFFir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFFir/Pods-SFFir.debug.xcconfig"; sourceTree = "<group>"; };
 		AD03E0C41B608C7E0030F0B3 /* SFFir.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFFir.podspec; sourceTree = "<group>"; };
+		AD6E969C1BD8C4FC0034B6C2 /* SFFir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFir.h; sourceTree = "<group>"; };
+		AD6E969D1BD8C4FC0034B6C2 /* SFFir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFir.m; sourceTree = "<group>"; };
 		ADBA48891B5F834B00A098B2 /* SFFir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFFir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBA488D1B5F834B00A098B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADBA488E1B5F834B00A098B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,8 +49,6 @@
 		ADBA48A21B5F834B00A098B2 /* SFFirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFFirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBA48A71B5F834B00A098B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADBA48A81B5F834B00A098B2 /* SFFirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFFirTests.m; sourceTree = "<group>"; };
-		ADBA48B31B5F840A00A098B2 /* SFFirService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFirService.h; sourceTree = "<group>"; };
-		ADBA48B41B5F840A00A098B2 /* SFFirService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFirService.m; sourceTree = "<group>"; };
 		ADBA48B61B5F845400A098B2 /* SFFirVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFirVersion.h; sourceTree = "<group>"; };
 		ADBA48B71B5F845400A098B2 /* SFFirVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFirVersion.m; sourceTree = "<group>"; };
 		F4EF689F3067ADB3EE052DC2 /* Pods-SFFir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFFir.release.xcconfig"; path = "Pods/Target Support Files/Pods-SFFir/Pods-SFFir.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,8 +139,8 @@
 		ADBA48B21B5F83DA00A098B2 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				ADBA48B31B5F840A00A098B2 /* SFFirService.h */,
-				ADBA48B41B5F840A00A098B2 /* SFFirService.m */,
+				AD6E969C1BD8C4FC0034B6C2 /* SFFir.h */,
+				AD6E969D1BD8C4FC0034B6C2 /* SFFir.m */,
 				ADBA48B61B5F845400A098B2 /* SFFirVersion.h */,
 				ADBA48B71B5F845400A098B2 /* SFFirVersion.m */,
 			);
@@ -300,8 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6E969E1BD8C4FC0034B6C2 /* SFFir.m in Sources */,
 				ADBA48B81B5F845400A098B2 /* SFFirVersion.m in Sources */,
-				ADBA48B51B5F840A00A098B2 /* SFFirService.m in Sources */,
 				ADBA48951B5F834B00A098B2 /* ViewController.m in Sources */,
 				ADBA48921B5F834B00A098B2 /* AppDelegate.m in Sources */,
 				ADBA488F1B5F834B00A098B2 /* main.m in Sources */,
@@ -382,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "ce3548b2-0c4d-486e-948b-4923dbc3c9e8";
@@ -420,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "ce3548b2-0c4d-486e-948b-4923dbc3c9e8";
 				SDKROOT = iphoneos;
@@ -433,6 +433,7 @@
 			baseConfigurationReference = 370ED1C6945FDA9EEC979633 /* Pods-SFFir.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SFFir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +446,7 @@
 			baseConfigurationReference = F4EF689F3067ADB3EE052DC2 /* Pods-SFFir.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SFFir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
